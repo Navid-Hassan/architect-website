@@ -6,3 +6,100 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+/* Shared style */
+.flex{
+    display: flex;
+}
+
+/* Shared color */
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #d88629;
+}
+
+
+
+
+
+.nav-mid h2{
+    font-weight: bold;
+    font-size:4rem ;
+}
+.nav .h3{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.p{
+    font-size: 1rem;
+}
+
+.list-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.list-link{
+    text-decoration: none;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    max-width: 2440px;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.btn1{
+    width: 11.25rem;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+}
+.nav-mid .list-link{
+    color: white;
+}
+.nav-mid{
+    max-width: 53.875rem;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    margin-top: 50px;
+}
+.banner-image{
+    width: 100%;
+    height: auto;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width : 576px) {
+    .nav , .nav-list{
+        flex-direction: column;
+    }
+    .header{
+        padding: 0px;
+    }
+}

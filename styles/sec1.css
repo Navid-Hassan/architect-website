@@ -1,0 +1,38 @@
+.sec1{
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+.sec1images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-left: 300px;
+}
+.img{
+    border-radius: 8px;
+}
+.sec1box{
+    max-width: 537px;
+    margin-left: 70px;
+    margin-right: 301px;
+}
+.f1{
+    color:#727272;
+}
+.f2{
+    color: #FF900E;
+}
+
+@media screen and (max-width : 576px) {
+    .sec1images{
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    .sec1box{
+        margin: 0;
+    }
+}
