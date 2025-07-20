@@ -47,4 +47,7 @@
         grid-template-columns: repeat(2,1fr);
         margin-left: 0;
     }
+    .sec1box{
+        margin-left: 20px;
+    }
 }
