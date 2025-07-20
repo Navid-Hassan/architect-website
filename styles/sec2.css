@@ -1,3 +1,35 @@
-.sec2 .sec2-1 h2{
-    
+.sec2{
+    margin-top: 100px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+    gap: 54px;
+}
+#sec2-1-extra{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.features h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.features{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#experience-batch{
+    height: auto;
+    width: 342px;
+    padding: 46px 42px;
+    border-radius: 8px;
+}
+#experience-year{
+    font-weight: 700;
+    font-size: 4rem;
+}
+#experience{
+    font-size: 1.5625rem;
+    font-weight: 500;
 }
