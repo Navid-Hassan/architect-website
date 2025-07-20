@@ -1,0 +1,20 @@
+.sec3{
+    margin-top: 130px auto 0;
+    border: 1px solid black;
+    
+}
+.sec3-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 124.17px;
+    
+
+}
+.sec3-grid-2{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+.sec3-text{
+    margin-left: 240px;
+}
