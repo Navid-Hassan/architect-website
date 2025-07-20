@@ -42,5 +42,6 @@
     .sec3-grid{
         margin: 100px auto 0;
         grid-template-columns: repeat(2,1fr);
+        justify-items: center;
     }
 }
