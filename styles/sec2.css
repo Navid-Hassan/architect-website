@@ -1,35 +1,89 @@
-.sec2{
+.sec2 {
     margin-top: 100px;
     margin-left: 15rem;
     margin-right: 15rem;
     display: flex;
     gap: 54px;
 }
-#sec2-1-extra{
+
+#sec2-1-extra {
     border-left: 5px solid #FF900E;
     padding-left: 21px;
 }
-.features h3{
+
+.features h3 {
     font-size: 1.25rem;
     font-weight: 600;
 }
-.features{
+
+.features {
     padding: 30px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
     border-radius: 8px;
 }
-#experience-batch{
-    height: auto;
-    width: 342px;
+
+#experience-batch {
     padding: 46px 42px;
     border-radius: 8px;
+    position: relative;
+    top: -50px;
+    right: 50px;
+    border: none;
 }
-#experience-year{
+
+#experience-year {
     font-weight: 700;
     font-size: 4rem;
 }
-#experience{
+
+#experience {
     font-size: 1.5625rem;
     font-weight: 500;
+}
+
+/* .sec2-1{
+    border: 1px solid black;
+}
+.sec2-2{
+    border: 1px solid black;
+} */
+
+/* for mobile */
+@media screen and (max-width : 576px) {
+    .sec2 {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #experience-batch {
+        position: static;
+        padding: 20px 20px;
+    }
+
+    .sec2-2 .img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+/* for tablet */
+@media screen and (min-width : 576px) and (max-width : 992px) {
+
+    .sec2 {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sec2-2 .img {
+        width: 100%;
+        height: fit-content;
+    }
+    #experience-batch {
+        position: static;
+    }
 }
