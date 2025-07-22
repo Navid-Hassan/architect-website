@@ -1,0 +1,22 @@
+.footer{
+    margin: 130px 240px;
+    background-color: #FFF4E7;
+    padding: 39px 410px;
+    text-align: center;
+}
+
+/* for mobile */
+@media screen and (max-width : 576px) {
+    .footer{
+        margin: 20px;
+        padding: 10px 0px;
+    }
+}
+
+/* for tablet */
+@media screen and (min-width : 576px) and (max-width : 992px) {
+    .footer{
+        margin: 20px;
+        padding: 20px;
+    }
+}
